@@ -350,5 +350,8 @@
   "plus-flash": [],
   "reply-all": [],
   "reply": [],
-  "triangle-ruler": []
+  "triangle-ruler": [],
+  "documents": ["files"],
+  "file-invoice": ["files"],
+  "file-missing": ["files"]
 }
