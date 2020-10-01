@@ -11,28 +11,52 @@
 
 Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
 
-https://feathericons.com
+https://projects.steinhaug.com/feathericons-forkitup-edition/
 
 ```shell
-npm install feather-icons
+# not available yet, npm install feather-icons
 ```
+
+## The Forkitup Editon
+
+As the name suggests this is the a fork, and it's icon number is going up! I notcied alot of people had requests for more icons and alot of people had already made icons not knowing if they would be added to the project. So I thought I might give a helping hand and incorporate them all, and here they are. Prebuildt .js files ready in dist folder containing all icons.
 
 ## Table of Contents
 
-* [Quick Start](#quick-start)
-* [Usage](#usage)
-  * [Client-side JavaScript](#client-side-javascript)
-  * [Node](#node)
-  * [SVG Sprite](#svg-sprite)
-  * [Figma](#figma)
-* [API Reference](#api-reference)
-	* [`feather.icons`](#feathericons)
-	* [`feather.icons[name].toSvg()`](#feathericonsnametosvgattrs)
-	* [`feather.replace()`](#featherreplaceattrs)
-	* [(DEPRECATED) `feather.toSvg()`](#deprecated-feathertosvgname-attrs)
-* [Contributing](#contributing)
-* [Related Projects](#related-projects)
-* [License](#license)
+- [Feather](#feather)
+  - [What is Feather?](#what-is-feather)
+  - [The Forkitup Editon](#the-forkitup-editon)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+  - [Usage](#usage)
+    - [Client-side JavaScript](#client-side-javascript)
+      - [1. Install](#1-install)
+      - [2. Include](#2-include)
+      - [3. Use](#3-use)
+      - [4. Replace](#4-replace)
+    - [Node](#node)
+      - [1. Install](#1-install-1)
+      - [2. Require](#2-require)
+      - [3. Use](#3-use-1)
+    - [SVG Sprite](#svg-sprite)
+      - [1. Install](#1-install-2)
+      - [2. Use](#2-use)
+    - [Figma](#figma)
+  - [API Reference](#api-reference)
+    - [`feather.icons`](#feathericons)
+      - [Usage](#usage-1)
+    - [`feather.icons[name].toSvg([attrs])`](#feathericonsnametosvgattrs)
+      - [Parameters](#parameters)
+      - [Usage](#usage-2)
+    - [`feather.replace([attrs])`](#featherreplaceattrs)
+      - [Parameters](#parameters-1)
+      - [Usage](#usage-3)
+    - [(DEPRECATED) `feather.toSvg(name, [attrs])`](#deprecated-feathertosvgname-attrs)
+      - [Parameters](#parameters-2)
+      - [Usage](#usage-4)
+  - [Contributing](#contributing)
+  - [Related Projects](#related-projects)
+  - [License](#license)
 
 ## Quick Start
 
@@ -44,7 +68,7 @@ Or copy and paste the following code snippet into a blank `html` file.
 <!DOCTYPE html>
 <html lang="en">
   <title></title>
-  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/gh/steinhaug/feathericons-forkitup-edition@4.28.0-fu-edition/dist/feather.min.js"></script>
   <body>
 
     <!-- example icon -->
@@ -72,10 +96,10 @@ The following are additional ways you can use Feather.
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```shell
-npm install feather-icons --save
+# not available, npm install feather-icons --save
 ```
 
-Or just copy [`feather.js`](https://unpkg.com/feather-icons/dist/feather.js) or [`feather.min.js`](https://unpkg.com/feather-icons/dist/feather.min.js) into your project directory. You don't need both `feather.js` and `feather.min.js`.
+Or just copy [`feather.js`](https://cdn.jsdelivr.net/gh/steinhaug/feathericons-forkitup-edition@4.28.0-fu-edition/dist/feather.js) or [`feather.min.js`](https://cdn.jsdelivr.net/gh/steinhaug/feathericons-forkitup-edition@4.28.0-fu-edition/dist/feather.min.js) into your project directory. You don't need both `feather.js` and `feather.min.js`.
 
 #### 2. Include
 
@@ -91,8 +115,8 @@ Or load the script from a CDN provider:
 
 ```html
 <!-- choose one -->
-<script src="https://unpkg.com/feather-icons"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/steinhaug/feathericons-forkitup-edition@4.28.0-fu-edition/dist/feather.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/steinhaug/feathericons-forkitup-edition@4.28.0-fu-edition/dist/feather.min.js"></script>
 ```
 
 After including the script, `feather` will be available as a global variable.
@@ -175,7 +199,7 @@ See the [API Reference](#api-reference) for more information about the available
 Install with [npm](https://docs.npmjs.com/getting-started/what-is-npm).
 
 ```shell
-npm install feather-icons --save
+# not in use, npm install feather-icons --save
 ```
 
 Or just copy [`feather-sprite.svg`](https://unpkg.com/feather-icons/dist/feather-sprite.svg) into your project directory.
