@@ -335,5 +335,20 @@
   "quotes": ["text"],
   "sort-asc": ["action"],
   "sort-desc": ["action"],
-  "sort": ["action"]
+  "sort": ["action"],
+  "campsite": [],
+  "battery-full": [],
+  "battery-low": [],
+  "battery-medium": [],
+  "calculator": [],
+  "campsite": [],
+  "forward": [],
+  "game-controller": [],
+  "google": ["Logo"],
+  "pin-tilt": [],
+  "pin": [],
+  "plus-flash": [],
+  "reply-all": [],
+  "reply": [],
+  "triangle-ruler": []
 }

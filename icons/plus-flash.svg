@@ -9,7 +9,8 @@
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M21.92 1.99h-2.053l-2.45 4.51h2.053L16.938 11l5.132-5.88h-2.053z"></path>
-  <line x1="9" x2="9" y1="7.602" y2="22"></line>
-  <line x1="2" x2="15.915" y1="14.474" y2="14.474"></line>
+    <path stroke-width="1.08106" d="M8.359 11.817v7.568M4.575 15.601h7.568"/>
+    <g fill="#000" stroke="none">
+        <path d="M19.391 3.924h-3.143l-3.893 7.074h3.127l-3.948 7.074 8.438-9.214h-3.296z"/>
+    </g>
 </svg>
