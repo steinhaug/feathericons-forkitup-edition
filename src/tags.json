@@ -268,5 +268,15 @@
   "stars": [],
   "usb": [],
   "watch": [],
-  "webcam": []
+  "webcam": [],
+  "send-money": [],
+  "recieve-money": [],
+  "banknote": [],
+  "currency-btc": ["currency"],
+  "currency-chf": ["currency"],
+  "currency-eur": ["currency"],
+  "currency-gbp": ["currency"],
+  "currency-inr": ["currency"],
+  "currency-jep": ["currency"],
+  "currency-rub": ["currency"]
 }
