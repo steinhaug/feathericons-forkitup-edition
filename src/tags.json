@@ -325,5 +325,15 @@
   "digits-eight-circle": ["digits"],
   "digits-eight-square": ["digits"],
   "digits-nine-circle": ["digits"],
-  "digits-nine-square": ["digits"]
+  "digits-nine-square": ["digits"],
+  "file-check": ["action"],
+  "file-times": ["action"],
+  "folder-check": ["action"],
+  "folder-times": ["action"],
+  "quote-left": ["text"],
+  "quote-right": ["text"],
+  "quotes": ["text"],
+  "sort-asc": ["action"],
+  "sort-desc": ["action"],
+  "sort": ["action"]
 }
