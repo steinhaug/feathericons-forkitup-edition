@@ -77,6 +77,7 @@ def reorder_svg_attributes(input_file, output_file=None):
                 # Remove namespace prefixes
                 compressed_svg = compressed_svg.replace('<ns0:svg xmlns:ns0=', '<svg xmlns=')
                 compressed_svg = compressed_svg.replace('ns0:', '')
+                compressed_svg = compressed_svg.replace('" />', '"/>')
 
                 f.write(compressed_svg)
             print(f"Reordered: {input_file}")
